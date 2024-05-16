@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 3rem;
+  height: 100vh;
+}
+
+body p {
+  width: 70%;
+  margin: auto;
+}
+
+.log-reg {
+  width: 300px;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.log-reg a {
+  color: green;
+  background-color: rgba(0, 0, 0, 0.295);
+  padding-inline: 2rem;
+  padding-block: 0.9rem;
+  border-radius: 5px;
+}
+
+form {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: auto;
+  text-align: start;
+}
+
+form .inputLogin {
+  width: 100%;
+  margin-bottom: 0.9rem;
+}
+
+.inputLogin input {
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: aquamarine;
+  width: 97%;
+  padding-inline: 0.9rem;
+  font-weight: bold;
+}
+
+.messageDanger {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-weight: bold;
+  color: red;
+}
